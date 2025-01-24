@@ -1,0 +1,160 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.main_buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.main_buttons button {
+  padding: 15px 32px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main_buttons button:active {
+    background-color: rgb(192, 188, 188);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.search-container img {
+    cursor: pointer;
+}
+
+.search-container {
+    border: 2px solid gray; 
+    border-radius: 25px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    width:60%; 
+}
+
+.search-container input {
+    flex: 1;
+    border: none; 
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 17px;
+}
+
+.logo{
+    font-size: 75px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.logo span:nth-child(1){
+    color: blue;
+}
+.logo span:nth-child(2){
+    color: red;
+}
+.logo span:nth-child(3){
+    color: yellow;
+}
+.logo span:nth-child(4){
+    color: blue;
+}
+.logo span:nth-child(5){
+    color: green;
+}
+.logo span:nth-child(6){
+    color: red;
+}
+
+.header{
+
+   position: fixed;
+   font-size: 18px;
+   top: 0;
+   right: 0;
+   left: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   
+}
+
+.left_buttons_header{
+    display:flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.right_buttons_header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.header span:hover{
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    font-size: 18px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+
+}
+
+.footer span:hover{
+    text-decoration: underline;
+}
+
+.right_buttons_footer{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.left_buttons_footer {
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dots {
+    display: grid;
+    grid-template-columns: repeat(3, 4px);
+    grid-template-rows: repeat(3, 4px);
+    gap: 2px;
+    padding: 10px;
+}
